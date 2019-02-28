@@ -18,7 +18,7 @@ type Converter struct {
 
 //var p.ConvPt float64 = 2.834645669
 
-//Read UTF-8 encoding file
+//ReadFile reads UTF-8 encoding file
 func (p *Converter) ReadFile(fileName string) error {
 	buf, err := ioutil.ReadFile(fileName)
 	if err != nil {
